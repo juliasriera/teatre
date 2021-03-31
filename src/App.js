@@ -1,22 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Mylinia from './linia.js'
 
 function App() {
   return (
-    <div className="App">
+    <div className="obra">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       <Mylinia name="Hola Romeo." />
+       <Mylinia name="Hola Julieta" />
+       <Mylinia name="T'estimo, Romeo"/>
+       <Mylinia name="I jo a tu Julieta"/>
+       <Mylinia name="Escapem-nos a Mèxic"/>
+       <Mylinia name="Millor no, no li caus bé a la meva família i si seguim endavant amb el nostre amor, aquesta història acabarà malament"/>
+       <Mylinia name="Doncs vaja"/>
       </header>
     </div>
   );
