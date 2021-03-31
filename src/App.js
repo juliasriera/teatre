@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="obra">
       <header className="App-header">
-       <Mylinia name="Hola Romeo." />
+       <Mylinia name="Hola Romeo" />
        <Mylinia name="Hola Julieta" />
        <Mylinia name="T'estimo, Romeo"/>
        <Mylinia name="I jo a tu Julieta"/>
