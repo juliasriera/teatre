@@ -1,4 +1,3 @@
-import React from "react"
 
 function Mylinia(props){
     console.log(props)
