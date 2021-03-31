@@ -4,7 +4,7 @@ function Mylinia(props){
     console.log(props)
     return(
         <div className="linia-texto">
-            <p>{props.name}</p>
+            <p>{props.text}</p>
         </div>
     )
 }
