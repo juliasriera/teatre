@@ -1,4 +1,4 @@
-const MyText = [
+const myText = [
 
 "Hola Romeo.", 
 
@@ -16,4 +16,4 @@ const MyText = [
 
 ]
 
-export default MyText
+export default myText
